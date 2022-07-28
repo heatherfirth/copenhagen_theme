@@ -1684,7 +1684,6 @@ ul {
 .article-body ul {
   list-style-type: disc;
 }
-
 .article-body :not(pre) > code {
   background: darken($background_color, 3%);
   border: 1px solid #ddd;
@@ -2090,7 +2089,6 @@ ul {
 .comment-body ul {
   list-style-type: disc;
 }
-
 .comment-body :not(pre) > code {
   background: darken($background_color, 3%);
   border: 1px solid #ddd;
@@ -2465,14 +2463,12 @@ ul {
 .status-label-hold {
   background-color: #000;
 }
-
 .status-label-request {
   max-width: 100%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
 @media (max-width: 768px) {
   .status-label-request {
     max-width: 150px;
@@ -2613,7 +2609,6 @@ ul {
 .post-body ul {
   list-style-type: disc;
 }
-
 .post-body :not(pre) > code {
   background: darken($background_color, 3%);
   border: 1px solid #ddd;
