@@ -6,7 +6,8 @@
     "node-fetch": "^2.1.2"
   },
   "scripts": {
-    "start": "webpack --watch"
+    "start": "webpack --watch",
+    "build": "webpack"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
